@@ -66,7 +66,8 @@ while run:
                     run = False  # خروج از برنامه
 
     else:
-        draw_text("Press SPACE to Pause", FONT, TEXT_COLOR, 220, 250)
+        def go_to_page2():
+           return "شما به صفحه ۲ منتقل شدید!"
 
     # مدیریت رویدادها
     for event in pygame.event.get():
